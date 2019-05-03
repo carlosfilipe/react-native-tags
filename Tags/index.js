@@ -119,6 +119,7 @@ class Tags extends React.Component {
           <View style={[styles.textInputContainer, inputContainerStyle]}>
             <TextInput
               {...textInputProps}
+              multiline={true}
               value={this.state.text}
               style={[styles.textInput, inputStyle]}
               onChangeText={this.onChangeText}
